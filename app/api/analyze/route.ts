@@ -1,3 +1,4 @@
+export const runtime = "nodejs"; // make sure this route runs on Node, not Edge
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
